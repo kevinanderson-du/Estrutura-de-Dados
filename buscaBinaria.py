@@ -13,3 +13,14 @@ def busca_binaria(lista, alvo):
             fim = meio - 1
 
     return -1
+
+minha_lista = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+
+numero_procurado = 70
+
+resultado = busca_binaria(minha_lista, numero_procurado)
+
+if resultado != -1:
+    print(f"O número {numero_procurado} foi encontrado")
+else:
+    print(f"-1")
